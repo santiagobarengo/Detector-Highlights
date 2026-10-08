@@ -1,0 +1,88 @@
+# ==========================================
+# Git Ignore - Detector de Highlights
+# ==========================================
+
+# Archivos de entorno y configuración privada
+.env
+.env.local
+.env.*.local
+
+# Salidas de video y clips recortados
+highlights/
+Clips/
+output/
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.ts
+*.webm
+*.flv
+*.m4v
+
+# Archivos de audio temporales
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.ogg
+*.flac
+
+# Reportes exportados locales
+*.json
+*.csv
+!package.json
+!tsconfig.json
+
+# Archivos de texto generados (mantener documentación)
+*.txt
+!requirements.txt
+!LICENSE*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
